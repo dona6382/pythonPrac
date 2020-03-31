@@ -10,5 +10,6 @@ for j in range(0, int(i)):
         if not num in lottoArr:
             lottoArr.append(num)
     lottoArr.sort()
+    
     #lottoArr.sort(reverse=True) 내림차순 정렬
     print(lottoArr) 
